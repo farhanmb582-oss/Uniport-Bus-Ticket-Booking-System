@@ -128,8 +128,9 @@ The main objectives of this project are:
 
 ---
 
-# Project Structure
+## Project Structure
 
+```text
 Uniport/
 │
 ├── config/
@@ -181,7 +182,7 @@ Uniport/
 ├── database.sql             → Database file
 ├── index.php                → Homepage
 └── README.md                → Project details
----
+```
 
 # Setup Instructions
 
