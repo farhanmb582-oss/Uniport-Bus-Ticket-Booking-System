@@ -130,7 +130,7 @@ The main objectives of this project are:
 
 # Project Structure
 
-Uniport/A Bus-Ticket Booking System
+Uniport/
 │
 ├── config/
 │   ├── connect.php          → Database connection
@@ -181,7 +181,6 @@ Uniport/A Bus-Ticket Booking System
 ├── database.sql             → Database file
 ├── index.php                → Homepage
 └── README.md                → Project details
-
 ---
 
 # Setup Instructions
