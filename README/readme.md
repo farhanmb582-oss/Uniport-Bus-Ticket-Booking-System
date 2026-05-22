@@ -130,41 +130,57 @@ The main objectives of this project are:
 
 # Project Structure
 
-Uniport/Bus-Ticket
+Uniport/A Bus-Ticket Booking System
 │
-├── index.php
-├── booking.php
-├── history.php
-├── search.php
-├── login.php
-├── register.php
-├── dashboard.php
-├── logout.php
-├── admin.php
-├── cancel.php
-├── connect.php
-├── style.css
-├── database.sql
+├── config/
+│   ├── connect.php          → Database connection
+│   └── functions.php        → Helper functions
 │
 ├── includes/
-│   ├── navbar.php
-│   └── footer.php
+│   ├── navbar.php           → Navigation bar
+│   └── footer.php           → Footer section
 │
-├── css/
-│   └── style.css     
+├── assets/
+│   ├── css/
+│   │   └── style.css        → Main stylesheet
+│   │
+│   ├── js/
+│   │   └── script.js        → JavaScript functions
+│   │
+│   └── images/
+│       ├── logo.png
+│       ├── bus.png
+│       └── banner.jpg
 │
-├── js/
-│   └── script.js     
+├── pages/
+│   ├── auth/
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   └── logout.php
+│   │
+│   ├── booking/
+│   │   ├── booking.php
+│   │   ├── history.php
+│   │   └── cancel.php
+│   │
+│   ├── bus/
+│   │   ├── search.php
+│   │   ├── routes.php
+│   │   └── schedule.php
+│   │
+│   └── admin/
+│       ├── dashboard.php
+│       ├── manage_bus.php
+│       └── manage_booking.php
 │
-├── images/
-│   ├── bus.png
-│   ├── logo.png
-│   └── banner.jpg
+├── screenshots/
+│   ├── homepage.png
+│   ├── dashboard.png
+│   └── erdiagram.png
 │
-└── screenshots/
-    ├── homepage.png
-    ├── dashboard.png
-    └── erdiagram.png
+├── database.sql             → Database file
+├── index.php                → Homepage
+└── README.md                → Project details
 
 ---
 
