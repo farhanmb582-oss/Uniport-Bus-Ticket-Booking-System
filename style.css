@@ -152,43 +152,35 @@ footer{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 50px;
+    padding:18px 40px;
 }
 
 .logo{
     color:white;
-    font-size:28px;
+    font-size:32px;
     font-weight:bold;
 }
 
 .nav-links{
-    list-style:none;
     display:flex;
-    gap:25px;
-}
-
-.nav-links li{
-    list-style:none;
+    gap:30px;
 }
 
 .nav-links a{
     color:white;
     text-decoration:none;
+    font-size:18px;
     font-weight:600;
-}
-
-.nav-links a:hover{
-    color:#38bdf8;
 }
 .hero{
     text-align:center;
-    padding:100px 20px;
     color:white;
+    padding:80px 20px;
 }
 
 .hero h1{
-    font-size:60px;
-    margin-bottom:20px;
+    font-size:55px;
+    margin-bottom:15px;
 }
 
 .hero p{
@@ -216,4 +208,31 @@ footer{
 
 .feature-list li{
     padding:8px;
+}
+
+.nav-links,
+.feature-list{
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li,
+.feature-list li{
+    list-style: none !important;
+}
+
+.btn-book{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-book:hover{
+    background:#1d4ed8;
 }
