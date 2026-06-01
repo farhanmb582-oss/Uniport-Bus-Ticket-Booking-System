@@ -1,18 +1,13 @@
-<div class="navbar">
+<nav>
+    <h2>Uniport</h2>
 
-    <div class="logo">
-        🚌 Uniport
-    </div>
-
-    <div class="nav-links">
-
-        <a href="index.php">Home</a>
-        <a href="search.php">Search</a>
-        <a href="history.php">History</a>
-        <a href="dashboard.php">Dashboard</a>
-        <a href="login.php">Login</a>
-        <a href="register.php">Register</a>
-
-    </div>
-
-</div>
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="search.php">Search Bus</a></li>
+        <li><a href="booking.php">Booking</a></li>
+        <li><a href="history.php">History</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">Register</a></li>
+        <li><a href="dashboard.php">Dashboard</a></li>
+    </ul>
+</nav>
