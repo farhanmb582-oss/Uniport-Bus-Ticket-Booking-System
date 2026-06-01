@@ -31,15 +31,21 @@ include 'connect.php';
 
 <div class="container">
 
-    <div class="card">
+<h1>Search Bus</h1>
 
-        <h2>Search Bus</h2>
+<form method="POST">
 
-        <form>
-            ...
-        </form>
+<input type="text" name="source" placeholder="Source City" required>
 
-    </div>
+<input type="text" name="destination" placeholder="Destination City" required>
+
+<button type="submit" name="search">
+
+Search Bus
+
+</button>
+
+</form>
 
 </div>
 
