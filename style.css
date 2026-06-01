@@ -10,7 +10,9 @@ h1{
 }
 
 body{
-    background:red !important;
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color:white;
+    min-height:100vh;
 }
 /* NAVBAR */
 
