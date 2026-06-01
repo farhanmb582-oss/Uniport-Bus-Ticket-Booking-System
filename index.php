@@ -11,8 +11,16 @@
 <?php include 'includes/navbar.php'; ?>
 
 <div class="hero">
-    <h1>Welcome to Uniport</h1>
-    <p>Smart Bus Ticket Booking System</p>
+    <h1>🚌 Uniport Bus Ticket Booking</h1>
+
+    <p>
+        Book your journey quickly, securely,
+        and conveniently from anywhere.
+    </p>
+
+    <a href="booking.php" class="btn-book">
+        Book Ticket Now
+    </a>
 </div>
 
 <div class="container">
@@ -33,7 +41,7 @@
 
         <br>
 
-        <ul>
+        <ul class="feature-list">
             <li>Bus Search</li>
             <li>Online Ticket Booking</li>
             <li>Booking History</li>
