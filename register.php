@@ -60,15 +60,25 @@ $message = "Registration Failed";
 
 <div class="container">
 
-    <div class="card">
+<h1>Register</h1>
 
-        <h2>Register</h2>
+<p><?php echo $message; ?></p>
 
-        <form>
-            ...
-        </form>
+<form method="POST">
 
-    </div>
+<input type="text" name="username" placeholder="Username" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<input type="password" name="password" placeholder="Password" required>
+
+<button type="submit" name="register">
+
+Register
+
+</button>
+
+</form>
 
 </div>
 
