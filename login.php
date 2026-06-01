@@ -13,11 +13,22 @@
 
 <?php include 'includes/navbar.php'; ?>
 
+<div class="hero">
+
+    <h1>🔐 Login to Uniport</h1>
+
+    <p>
+        Access your account to manage bookings
+        and view travel history.
+    </p>
+
+</div>
+
 <div class="container">
 
     <div class="card">
 
-        <h1>Login Page</h1>
+        <h2>Login</h2>
 
         <br>
 
