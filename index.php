@@ -3,7 +3,7 @@
 
 <head>
     <title>Uniport Bus Ticket Booking</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=10">
 
     <style>
     body{
