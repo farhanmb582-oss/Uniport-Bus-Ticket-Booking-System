@@ -6,11 +6,8 @@
 }
 
 body{
-    background: linear-gradient(to right, #0f172a, #1e3a8a);
-    color:white;
-    min-height:100vh;
+    background:red !important;
 }
-
 /* NAVBAR */
 
 nav{
@@ -237,6 +234,3 @@ footer{
     background:#1d4ed8;
 }
 
-body{
-    background:red !important;
-}
