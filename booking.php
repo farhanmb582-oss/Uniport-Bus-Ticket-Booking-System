@@ -52,31 +52,70 @@ $result2 = mysqli_query($conn,$sql2);
 
 if(isset($result2) && $result2){
 
-echo "<h1>✅ Ticket Booked Successfully</h1>";
+?>
+
+<div class="card">
+
+    <h1>✅ Ticket Booked Successfully</h1>
+
+    <br>
+
+    <p><strong>Passenger Name:</strong> <?php echo $name; ?></p>
+
+    <p><strong>Phone:</strong> <?php echo $phone; ?></p>
+
+    <p><strong>Email:</strong> <?php echo $email; ?></p>
+
+    <p><strong>Seat Number:</strong> <?php echo $seat; ?></p>
+
+    <p><strong>Fare:</strong> ৳750</p>
+
+    <br>
+
+    <a href="history.php" class="btn-book">
+        View Booking History
+    </a>
+
+    <br><br>
+
+    <a href="index.php" class="btn-book">
+        Book Another Ticket
+    </a>
+
+</div>
+
+<?php
 
 }
 else{
 
-echo "<h1>❌ Booking Failed</h1>";
+?>
+
+<div class="card">
+
+    <h1>❌ Booking Failed</h1>
+
+    <p>Please try again.</p>
+
+    <br>
+
+    <a href="index.php" class="btn-book">
+        Back To Home
+    </a>
+
+</div>
+
+<?php
 
 }
 
 ?>
 
-<br><br>
-
-<a href="history.php">
-<button>View Booking History</button>
-</a>
-
-<br><br>
-
-<a href="index.php">
-<button>Book Another Ticket</button>
-</a>
-
 </div>
 
-</body>
+<footer>
+    <p>Uniport Bus Ticket Booking System © 2026</p>
+</footer>
 
+</body>
 </html>
