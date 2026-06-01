@@ -15,23 +15,31 @@
 
 <div class="container">
 
-<h1>Login Page</h1>
+    <div class="card">
 
-<form>
+        <h1>Login Page</h1>
 
-<input type="email" placeholder="Email">
+        <br>
 
-<input type="password" placeholder="Password">
+        <form>
 
-<button type="submit">
+            <input type="email" placeholder="Email">
 
-Login
+            <input type="password" placeholder="Password">
 
-</button>
+            <button type="submit">
+                Login
+            </button>
 
-</form>
+        </form>
+
+    </div>
 
 </div>
+
+<footer>
+    <p>Uniport Bus Ticket Booking System © 2026</p>
+</footer>
 
 </body>
 
