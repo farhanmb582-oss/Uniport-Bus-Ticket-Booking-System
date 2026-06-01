@@ -46,6 +46,10 @@ $result2 = mysqli_query($conn,$sql2);
 
 <?php include 'includes/navbar.php'; ?>
 
+<div class="hero">
+    <h1>🔐 Login</h1>
+    <p>Access your Uniport account</p>
+</div>
 <div class="container">
 
 <?php

@@ -26,29 +26,23 @@ exit();
 
 <?php include 'includes/navbar.php'; ?>
 
+<div class="hero">
+
+    <h1>📊 Admin Dashboard</h1>
+
+    <p>
+        Manage buses, routes and bookings.
+    </p>
+
+</div>
+
 <div class="container">
 
-<h1>User Dashboard</h1>
+    <div class="card">
 
-<p>Welcome To Uniport</p>
+        Dashboard Content
 
-<br>
-
-<a href="search.php">
-<button>Search Bus</button>
-</a>
-
-<br><br>
-
-<a href="history.php">
-<button>Booking History</button>
-</a>
-
-<br><br>
-
-<a href="logout.php">
-<button>Logout</button>
-</a>
+    </div>
 
 </div>
 

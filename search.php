@@ -19,23 +19,27 @@ include 'connect.php';
 
 <?php include 'includes/navbar.php'; ?>
 
+<div class="hero">
+
+    <h1>🔍 Search Buses</h1>
+
+    <p>
+        Find available buses by route and date.
+    </p>
+
+</div>
+
 <div class="container">
 
-<h1>Search Bus</h1>
+    <div class="card">
 
-<form method="POST">
+        <h2>Search Bus</h2>
 
-<input type="text" name="source" placeholder="Source City" required>
+        <form>
+            ...
+        </form>
 
-<input type="text" name="destination" placeholder="Destination City" required>
-
-<button type="submit" name="search">
-
-Search Bus
-
-</button>
-
-</form>
+    </div>
 
 </div>
 

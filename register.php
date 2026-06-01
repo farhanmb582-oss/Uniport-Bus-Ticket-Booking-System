@@ -48,18 +48,24 @@ $message = "Registration Failed";
 
 <?php include 'includes/navbar.php'; ?>
 
+<div class="hero">
+
+    <h1>📝 Create Account</h1>
+
+    <p>
+        Register and start booking bus tickets online.
+    </p>
+
+</div>
+
 <div class="container">
 
     <div class="card">
 
-        <h1>Register</h1>
+        <h2>Register</h2>
 
         <form>
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-
-            <button type="submit">Register</button>
+            ...
         </form>
 
     </div>
