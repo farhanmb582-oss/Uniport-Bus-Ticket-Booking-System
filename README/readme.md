@@ -375,3 +375,7 @@ Update Booking History
 # Conclusion
 
 Uniport demonstrates how a relational database system can be applied in a real-world transportation environment. The project improves efficiency, reduces manual work, maintains data consistency, and provides an organized solution for bus ticket management.
+
+## ER Diagram
+
+![ER Diagram](ER_Diagram.png)

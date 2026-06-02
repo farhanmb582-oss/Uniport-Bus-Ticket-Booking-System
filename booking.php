@@ -27,6 +27,10 @@ VALUES
 
 $result2 = mysqli_query($conn,$sql2);
 
+if(!$result2){
+    echo mysqli_error($conn);
+}
+
 }
 }
 ?>
