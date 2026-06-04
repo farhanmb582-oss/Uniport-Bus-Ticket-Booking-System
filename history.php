@@ -1,3 +1,4 @@
+```php
 <?php
 
 error_reporting(E_ALL);
@@ -43,7 +44,8 @@ $result = mysqli_query($conn,$sql);
 <th>Fare</th>
 <th>Payment</th>
 <th>Status</th>
-<th>Action</th>
+<th>Cancel</th>
+<th>Edit</th>
 
 </tr>
 
@@ -90,6 +92,20 @@ Cancel
 
 </td>
 
+<td>
+
+<a href="edit.php?id=<?php echo $row['booking_id']; ?>">
+
+<button type="button">
+
+Edit
+
+</button>
+
+</a>
+
+</td>
+
 </tr>
 
 <?php
@@ -106,3 +122,4 @@ Cancel
 
 </body>
 </html>
+```
