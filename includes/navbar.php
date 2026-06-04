@@ -10,5 +10,6 @@
         <li><a href="history.php">History</a></li>
         <li><a href="login.php">Login</a></li>
         <li><a href="register.php">Register</a></li>
+        <li><a href="admin/dashboard.php">Admin</a></li>
     </ul>
 </nav>
