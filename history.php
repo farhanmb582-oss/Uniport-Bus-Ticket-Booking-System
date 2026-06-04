@@ -6,7 +6,6 @@ ini_set('display_errors', 1);
 include 'connect.php';
 
 $sql = "SELECT * FROM bookings";
-
 $result = mysqli_query($conn,$sql);
 
 ?>
@@ -18,7 +17,7 @@ $result = mysqli_query($conn,$sql);
 
 <title>Booking History</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20">
 
 </head>
 
@@ -26,11 +25,12 @@ $result = mysqli_query($conn,$sql);
 
 <?php include 'includes/navbar.php'; ?>
 
-<h1 style="text-align:center; margin-top:30px; color:white;">
+<div class="hero">
+    <h1>📜 Booking History</h1>
+    <p>View and manage all booked tickets</p>
+</div>
 
-Booking History
-
-</h1>
+<div class="container">
 
 <table>
 
@@ -43,6 +43,7 @@ Booking History
 <th>Fare</th>
 <th>Payment</th>
 <th>Status</th>
+<th>Action</th>
 
 </tr>
 
@@ -68,6 +69,27 @@ while($row=mysqli_fetch_assoc($result)){
 
 <td><?php echo $row['booking_status']; ?></td>
 
+<td>
+
+<form action="cancel.php" method="POST">
+
+<input
+type="hidden"
+name="booking_id"
+value="<?php echo $row['booking_id']; ?>">
+
+<button
+type="submit"
+name="cancel">
+
+Cancel
+
+</button>
+
+</form>
+
+</td>
+
 </tr>
 
 <?php
@@ -75,6 +97,12 @@ while($row=mysqli_fetch_assoc($result)){
 ?>
 
 </table>
+
+</div>
+
+<footer>
+    <p>Uniport Bus Ticket Booking System © 2026</p>
+</footer>
 
 </body>
 </html>
